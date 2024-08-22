@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/menu.xsd">
+    <menu>
+        <add id="Thinkbar_Module::main_menu" title="Thinkbar Menu" module="Thinkbar_Module" sortOrder="100" resource="Thinkbar_Module::main_menu"/>
+        <add id="Thinkbar_Module::sub_menu" title="Custom Admin Page" module="Thinkbar_Module" sortOrder="10" parent="Thinkbar_Module::main_menu" action="thinkbar_module/index/index" resource="Thinkbar_Module::sub_menu"/>
+    </menu>
+</config>

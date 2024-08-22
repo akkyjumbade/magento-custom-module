@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\Module\Controller\Adminhtml\Index;
+namespace Thinkbar\Module\Controller\Adminhtml\Index;
 
 use Magento\Backend\App\Action;
 use Magento\Framework\View\Result\PageFactory;
@@ -21,15 +21,5 @@ class Index extends Action
         $resultPage = $this->resultPageFactory->create();
         $resultPage->getConfig()->getTitle()->prepend(__('Custom Admin Page'));
         return $resultPage;
-    }
-    /**
-     * Check if user has permissions to access this controller
-     *
-     * @return bool
-     */
-    protected function _isAllowed()
-    {
-        return true;
-        // return $this->_authorization->isAllowed("Vendor_Module::masscancel");
     }
 }

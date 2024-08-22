@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/menu.xsd">
     <menu>
-        <add id="Vendor_Module::main_menu" title="Vendor Menu" module="Vendor_Module" sortOrder="100" resource="Vendor_Module::main_menu"/>
-        <add id="Vendor_Module::sub_menu" title="Custom Admin Page" module="Vendor_Module" sortOrder="10" parent="Vendor_Module::main_menu" action="vendor_module/index/index" resource="Vendor_Module::sub_menu"/>
+        <add id="Vendor_Module::main_menu" title="Vendor" module="Vendor_Module" sortOrder="100" resource="Magenot_Backend::admin"/>
+        <add id="Vendor_Module::sub_menu" title="Custom Admin Page" module="Vendor_Module" sortOrder="10" parent="Vendor_Module::main_menu" action="vendor_module/index/index" resource="Magenot_Backend::admin"/>
     </menu>
 </config>

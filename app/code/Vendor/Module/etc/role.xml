@@ -1,0 +1,9 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/role.xsd">   
+    <admin>
+        <role id="admin">
+            <resource id="Magento_Backend::admin" />
+            <resource id="Vendor_Module::main_menu" />
+            <resource id="Vendor_Module::sub_menu" />
+        </role>
+    </admin>
+</config>
